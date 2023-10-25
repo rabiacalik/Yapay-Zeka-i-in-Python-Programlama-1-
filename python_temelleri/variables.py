@@ -60,9 +60,42 @@ return_output = my_first_function(i, j)
 
 print("sonuc = ", return_output)
     
+# %% Default and Flexible Functions
 
+# Default Function
+def calculate_circle_perimeter(r, pi = 3.14):
+    """
+    Parameters
+    ----------
+    r : int
+        çemberin yari capi.
+    pi : double, optional
+        pi sayisi. The default is 3.14.
 
+    Returns çemberin çevresi
+    -------
+    output : TYPE
+        DESCRIPTION.
 
+    """
+    output = 2 * pi * r
+    return output
+
+# Flexible Function
+def flexible_func(val1, val2, *args):
+    print(args)
+    output = (val1 + val2) * args[0]
+    return output
+
+# flexible_func(1, 2, 5, 6, 7)
+# (5, 6, 7)
+# Out[31]: 15
+
+# %% Lambda Function
+
+result = lambda x : x*x
+
+print(result(3))
 
 
 
