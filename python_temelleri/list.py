@@ -78,6 +78,21 @@ if 6 in liste:
 else:
     print("hayir, 6 degeri icerisinde degil")
 
+# %% For Loop
+
+for each in "rabia calik":
+    print(each)
+
+# split e bir sey girmedigimiz de bosluk olarak alir    
+for each in "rabia calik".split():
+    print(each)
+
+# %% While Loop
+
+i = 0
+while (i < 4):
+    print(i)
+    i += 1
 
 
 
