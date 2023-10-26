@@ -10,3 +10,8 @@
 'list.py'
   - Lists
   - Tuple
+  - Dictionary
+  - For loop
+  - While loop
+
+'quiz.py'

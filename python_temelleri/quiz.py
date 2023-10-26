@@ -14,6 +14,7 @@ small = 0
 while(i < len(liste)):
     if (liste[i] < small):
         small = liste[i]
+    i = i + 1
 
 print(small)
         
